@@ -1,0 +1,61 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}	% Para caracteres en español
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage{blindtext}
+\usepackage{hyperref}
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage[n,advantage,operators,sets,
+adversary,landau,probability,notions,
+logic,ff,mm,primitives,events,complexity,
+oracles,asymptotics,keys]{cryptocode} % the cryptocode package need to be installed
+\newcommand*{\defeq}{\stackrel{\text{def}}{=}}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\pagestyle{fancy}
+\chead{\title}
+\lhead{}
+\rhead{\authorname}
+
+\def\title{Some Topic Discussed in Course}
+\def\coursecode{COMP3357}
+\def\authorname{John Doe}
+\def\authoremail{me@example.com}
+\def\semester{Spring 2023}
+
+\begin{document}
+\thispagestyle{empty}
+
+\begin{center}
+{\LARGE \bf \title}\\
+{\large \authorname \space (\href{mailto:\authoremail}{\authoremail})}\\ 
+{\large HKU-\coursecode}\\
+{\semester}
+\end{center}
+
+This is a sample LaTeX document for taking course note.
+
+\end{document}
